@@ -1,0 +1,9 @@
+/** @format */
+
+.slide-smooth {
+    transition: all ease-in-out 1s !important;
+  }
+
+.sliderItemName {
+  margin: 20px auto 0;
+}
