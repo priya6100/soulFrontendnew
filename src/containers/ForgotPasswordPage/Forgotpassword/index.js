@@ -14,7 +14,7 @@ const ForgetPassword =() => {
         }
         axios({
             method: "POST",
-            url: "http://localhost:7000/api/forgot-password",
+            url: "https://soulbackend.herokuapp.com/api/forgot-password",
             data: {tokenId: response.tokenId}
         }).then(response => {
             console.log("password reset link send successfully.." ,response);        

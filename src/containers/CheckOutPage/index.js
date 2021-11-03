@@ -117,7 +117,7 @@ const Address = ({
   );
 };
 
-const baseUrl = "http://localhost:7000";
+const baseUrl = "https://soulbackend.herokuapp.com";
 
 const CheckOutPage = (props) => {
   const user = useSelector((state) => state.user);
